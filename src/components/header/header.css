@@ -1,0 +1,12 @@
+.searchbar{
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  border-radius: 5px;
+}
+.navbar-toggler-icon{
+  background-color: white;
+}
+.navbar-toggler{
+  border: 2px solid white;
+}
