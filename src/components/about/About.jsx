@@ -10,7 +10,7 @@ import AboutContent3 from './AboutContent3';
 import Webbuilder from './Webbuilder';
 function About({newitem}) {
   const textSize={
-    fontSize:"9px",
+    fontSize:"7px",
     fontWeight:"500"
   }
 
@@ -32,17 +32,18 @@ function About({newitem}) {
       <div className='row'>
         <div className='col-lg-4 col-md-6 col-sm-12 pt-2'>
           <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>Tools</button>
-          <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}} className='mx-5'>AWS Builder</button>
+          <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}} className='mx-3'>AWS Builder</button>
           <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>Start Build</button>
         </div>
         <div className='col-lg-4 col-md-6 col-sm-12 pt-2' >
           <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>Build Suplies</button>
-          <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}} className='mx-4'>Tooling</button>
+          <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}} className='mx-1'>Tooling</button>
           <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>BlueHosting</button>
         </div>
         <div className='col-lg-4 col-md-6 col-sm-12'></div>
+        
       </div>
-      <div className='pt-3' style={{fontSize:"11px"}}>
+      <div className='pt-3' style={{fontSize:"9.5px"}}>
         <ul className='list-unstyled d-flex gap-1'>
           <li>Home</li>
           <li>{<RiArrowDropRightLine style={{fontSize:"12px"}}/>}</li>
