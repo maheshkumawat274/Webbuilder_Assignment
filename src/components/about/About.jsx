@@ -10,7 +10,7 @@ import AboutContent3 from './AboutContent3';
 import Webbuilder from './Webbuilder';
 function About({newitem}) {
   const textSize={
-    fontSize:"7px",
+    fontSize:"7.5px",
     fontWeight:"500"
   }
 
@@ -37,7 +37,7 @@ function About({newitem}) {
         </div>
         <div className='col-lg-4 col-md-6 col-sm-12 pt-2' >
           <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>Build Suplies</button>
-          <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}} className='mx-1'>Tooling</button>
+          <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>Tooling</button>
           <button style={{border:"none", borderRadius:"5px", backgroundColor:"white"}}>BlueHosting</button>
         </div>
         <div className='col-lg-4 col-md-6 col-sm-12'></div>

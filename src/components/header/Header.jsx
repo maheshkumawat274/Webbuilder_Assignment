@@ -18,8 +18,8 @@ function Header() {
             
           </div>
          </a>
-         <button style={{color:"white", height:"25px",width:"30px"}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"   aria-expanded="false" aria-label="Toggle navigation">
-           <span className="navbar-toggler-icon mb-3" style={{fontSize:"12px",position:"relative",right:"5px"}}></span>
+         <button style={{color:"white", height:"25px",width:"20px"}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"   aria-expanded="false" aria-label="Toggle navigation">
+           <span className="navbar-toggler-icon mb-3" style={{fontSize:"10px",position:"relative",right:"8px"}}></span>
          </button>
          <div className="collapse navbar-collapse" id="navbarNav">
            <ul className="navbar-nav gap-5 text-light  d-flex justify-content-end">
