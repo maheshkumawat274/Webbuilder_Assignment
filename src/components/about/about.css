@@ -1,5 +1,22 @@
 .items ul li{
-  background-color: red;
   border: 0;
   border-radius: 7px;
+}
+.TextSize{
+  font-size: 15px;
+}
+@media (min-width:588px) and (max-width:774px) {
+  .TextSize{
+    font-size: 12px;
+  }
+}
+@media (min-width:490px) and (max-width:588px) {
+  .TextSize{
+    font-size: 10px;
+  }
+}
+@media (min-width:350px) and (max-width:490px) {
+  .TextSize{
+    font-size: 7px;
+  }
 }

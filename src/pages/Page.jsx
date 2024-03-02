@@ -7,9 +7,7 @@ function Page({item}) {
   return (
     <>
      <div className='contaner-fluid bg-light'>
-      <div className='container-fluid bg-dark'>
        <Header/>
-      </div>
       <About newitem={item}/>
       <div className='container-fluid bg-dark'>
        <Footer/>

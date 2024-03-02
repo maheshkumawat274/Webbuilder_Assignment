@@ -21,11 +21,11 @@ function About({newitem}) {
       <div className='pt-3'>
         <h1 className='fs-4'>Best Website builders in the US</h1>
       </div><hr/>
-      <div className='d-flex justify-content-between text-center'>
-        <div style={textSize}>
+      <div className='TextSize d-flex justify-content-between text-center'>
+        <div>
           {<CiCircleCheck/>}Last Updated - February 22, 2020 &nbsp;	&nbsp; Advertising Disclosure
         </div>
-        <div style={textSize}>
+        <div>
           Top Relevent {<RiArrowDropDownLine/>}
         </div>
       </div><hr/>

@@ -4,13 +4,13 @@ import { CiSearch } from "react-icons/ci";
 function Header() {
   return (
     <>
-     <div className='container d-flex justify-content-center' style={{backgroundColor:"#212731"}}>
+     <div className='container-fluid bg-dark d-flex justify-content-center' >
        <nav className="navbar navbar-expand-lg  navbar-light gap-5">
          <a className="navbar-brand" href="#">
           {/* <div className='searchbar'>
            <div>{<CiSearch className='pb-2' style={{fontSize:"30px"}}/>}</div>
           </div> */}
-          <div className="input-group w-50 ">
+          <div className="input-group w-75 ">
           <span className="input-group-text text-light" style={{height:"30px"}}>
               <div>{<CiSearch style={{fontSize:"20px",color:"black"}}/>}</div>
             </span>
@@ -18,7 +18,7 @@ function Header() {
             
           </div>
          </a>
-         <button style={{color:"white", height:"25px",width:"20px"}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"   aria-expanded="false" aria-label="Toggle navigation">
+         <button style={{color:"white", height:"25px",width:"20px",position:"relative",left:"10px"}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"   aria-expanded="false" aria-label="Toggle navigation">
            <span className="navbar-toggler-icon mb-3" style={{fontSize:"10px",position:"relative",right:"8px"}}></span>
          </button>
          <div className="collapse navbar-collapse" id="navbarNav">
