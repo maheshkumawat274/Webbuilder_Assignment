@@ -6,7 +6,7 @@ function Header() {
     <>
      <div className='container-fluid bg-dark d-flex justify-content-center' >
        <nav className="navbar navbar-expand-lg  navbar-light gap-5">
-         <a className="navbar-brand" href="#">
+         <a className="navbar-brand" style={{width:"220px"}} href="#">
           {/* <div className='searchbar'>
            <div>{<CiSearch className='pb-2' style={{fontSize:"30px"}}/>}</div>
           </div> */}
