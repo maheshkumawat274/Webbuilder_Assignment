@@ -20,3 +20,8 @@
     font-size: 7px;
   }
 }
+@media (min-width:300px) and (max-width:450px) {
+  .TextSize{
+    font-size: 5px;
+  }
+}
